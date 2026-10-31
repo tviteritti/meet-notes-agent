@@ -1,0 +1,9 @@
+{
+  "port": 3939,
+  "userName": "Vos",
+  "groqModel": "whisper-large-v3-turbo",
+  "language": "es",
+  "groqApiKey": "",
+  "projectsRoot": "",
+  "extraProjects": []
+}

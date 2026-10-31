@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Reuniones</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Reuniones</h1>
+      <p>El audio entra en la carpeta del proyecto. Cursor lee ese archivo.</p>
+      <label>
+        Proyecto
+        <select id="project"></select>
+      </label>
+      <button id="toggle" type="button">Iniciar</button>
+      <p id="status"></p>
+      <p id="hint">Dejá la pestaña de Meet visible. Si cambiás de pestaña en Chrome, se corta la voz de los demás. La tuya sigue.</p>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
